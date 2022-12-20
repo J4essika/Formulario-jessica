@@ -1,9 +1,8 @@
 @charset 'utf-8';
 
 
-
 h2{
-    color:yellowgreen;
+    color:rgb(142, 204, 255);
     text-shadow: 2px 2px 5px black;
 }
 
@@ -15,7 +14,7 @@ h2{
 body{
     background-color: blue;
     text-align: center;
-    height: 5px;
+    height:5px;
 }
 
 form{
@@ -70,16 +69,20 @@ textarea + span::before {
 
 
 div{
-    background-color: rgb(171, 233, 48);
+    background-color: rgb(48, 233, 233);
     border-radius: 20px;
+    
+   
+
 }
 
 #button{
     border-radius: 5px;
     color: blue;
     font-size: 100%;
-    align-items: center;
+    align-items:center;
 }
+
 
 footer{
     color:white;
