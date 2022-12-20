@@ -1,0 +1,95 @@
+@charset 'utf-8';
+
+
+
+h2{
+    color:yellowgreen;
+    text-shadow: 2px 2px 5px black;
+}
+
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 6px black;
+}
+
+body{
+    background-color: blue;
+    text-align: center;
+    height: 5px;
+}
+
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: blue;
+}
+
+
+
+input:focus, textarea:focus{
+    border-color: rgb(9, 92, 9)!important; 
+}
+
+input:invalid , textarea:invalid , p:invalid{
+    border-color:red;
+}
+
+input:valid ,textarea:valid{
+    border-color: blue;
+    
+}
+
+span{
+    position: relative;
+}
+
+
+input:invalid + span::before ,textarea:invalid + span::before {
+    content: 'x';
+    color: red;
+ }
+
+ input:valid + span::before ,textarea:valid + span::before {
+    content: '✓';
+    color: blue;
+ }
+
+
+input + span::before {
+    position: absolute;
+    right: 10px;
+    top: -3px;
+}
+
+
+textarea + span::before {
+    position: absolute;
+    top: -65px;
+    right: 10px;
+}
+
+
+div{
+    background-color: rgb(171, 233, 48);
+    border-radius: 20px;
+}
+
+#button{
+    border-radius: 5px;
+    color: blue;
+    font-size: 100%;
+    align-items: center;
+}
+
+footer{
+    color:white;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}

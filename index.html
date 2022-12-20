@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <label for="rotulo">
+            <h2>PREENCHA O FORMULARIO</h2>
+                <!--Cabeçalho-->
+        </label>
+
+            <div>
+                
+                <p id="p">Nome Completo:</p>
+                <input type="text" placeholder="Nome e sobrenome" required maxlength="50">
+                <span></span>
+
+                <p id="p">Telefone para contato:</p>
+                <input type="tel" placeholder="Residencial ou celular" required minlength="14">
+                <span></span>
+
+                <p id="p">E-mail para contato:</p>
+                <input type="email" placeholder="Seu melhor e-mail" required maxlength="25">
+                <span></span>
+
+               <p id="p">Enviar Curriculo:</p>
+               <input type="file" required>
+
+               <p id="p">Data de nascimento:</p>
+               <input type="date" required minlength="10">
+
+               <p id="p">Fale mais sobre voce:</p>
+                 <div>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Queremos saber mais sobre " required maxlength="100"></textarea>
+                    <span></span>
+                 </div>
+               
+
+                <button id="button">Tudo pronto? SEND</button>
+
+               
+
+            
+            </div>
+
+    </form>
+
+    
+           <script src="main.js"></script>
+    
+
+        <footer>Desenvolvido por:<a href="https://github.com/J4essika" target="_blank">Jéssica Tech</a></footer>
+
+    
+
+    
+</body>
+</html>
